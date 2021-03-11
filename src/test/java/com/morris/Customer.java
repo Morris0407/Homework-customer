@@ -18,6 +18,7 @@ public class Customer {
     }
 
     public void print() {
+
         System.out.println(id+ "\t" + spent + " \t"+ discount  +"\t" +"  "+ (spent-discount));
 
 
